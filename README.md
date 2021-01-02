@@ -1,5 +1,6 @@
 # Super-Mario-Js
 
-Super Mario Implementation using javascript...
-This is a project under progress..
-It is thoroghly documented..
+This os a super mario implementation using javascript.
+
+I have tried to document each function,class,promise etc.
+
