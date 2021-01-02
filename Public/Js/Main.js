@@ -8,8 +8,8 @@ const canvas = document.getElementById("screen");
 if(canvas.getContext){
     /** @type {CanvasRenderingContext2D} */
     const ctx = canvas.getContext('2d');
-    //load the image
-    loadImage("../Assets/mario.png").then((image)=>{
+    //load the tileset image
+    loadImage("../Assets/tileset.png").then((image)=>{
         const spriteSheet = new SpriteSheet(image,PIXELS_PER_UNIT,PIXELS_PER_UNIT);
         spriteSheet.defineSprite('ground',0,0);
         spriteSheet.defineSprite('sky',3,23);
