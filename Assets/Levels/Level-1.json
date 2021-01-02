@@ -1,0 +1,11 @@
+{
+    "level-name":"Level-1",
+    "background":{
+        "background_tile_name":"sky",
+        "background_range":[{"rows_start":0,"columns_start":0,"rows_end":80,"columns_end":80}]
+    },
+    "floor":{
+        "floor_tile_name":"ground",
+        "floor_range":[{"rows_start":0,"columns_start":20,"rows_end":80,"columns_end":80}]
+    }
+}
